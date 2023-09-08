@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/components/TodoComputed.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1694024267744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1694024276339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,7 @@\n         <span className=\"text-gray-400\">5 items left</span>\r\n         <button className=\"text-gray-400\">Clear Completed</button>\r\n       </section>\r\n     )\r\n- }\n\\ No newline at end of file\n+ }\r\n+\r\n+ export default TodoComputed;\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1694024267744,
+            "name": "Commit-0",
+            "content": "const TodoComputed = () => { \r\n    return(\r\n        <section className=\"py-4 px-4 flex justify-between bg-white rounded-b-md\">\r\n        <span className=\"text-gray-400\">5 items left</span>\r\n        <button className=\"text-gray-400\">Clear Completed</button>\r\n      </section>\r\n    )\r\n }"
+        }
+    ]
+}

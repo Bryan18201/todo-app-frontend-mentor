@@ -1,0 +1,70 @@
+{
+    "sourceFile": "src/components/TodoCreate.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 13,
+            "patches": [
+                {
+                    "date": 1694024067823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1694024074689,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,9 @@\n-const first = (second) => { third }\n\\ No newline at end of file\n+const TodoCreate = () => { \r\n+    return(\r\n+        <form className=\"bg-white rounded-md overflow-hidden py-4 flex gap-4 items-center px-4 mb-8\">\r\n+          <span className=\"rounded-full border-2 w-5 h-5 inline-block\"></span>\r\n+          <input type=\"text\" placeholder=\"Create a new todo...\"\r\n+            className=\"w-full text-gray-400 outline-none\" />\r\n+        </form>\r\n+    )\r\n+ }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1694024081184,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,7 @@\n           <input type=\"text\" placeholder=\"Create a new todo...\"\r\n             className=\"w-full text-gray-400 outline-none\" />\r\n         </form>\r\n     )\r\n- }\n\\ No newline at end of file\n+ }\r\n+\r\n+ export default TodoCreate\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1694024094508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,5 @@\n         </form>\r\n     )\r\n  }\r\n \r\n- export default TodoCreate\n\\ No newline at end of file\n+ export default TodoCreate;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1694026408818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+const TodoCreate = ({createTodo}) => {\r\n+    return (\r\n+        <form className=\"bg-white rounded-md overflow-hidden py-4 flex gap-4 items-center px-4 mb-8\">\r\n+            <span className=\"rounded-full border-2 w-5 h-5 inline-block\"></span>\r\n+            <input type=\"text\" placeholder=\"Create a new todo...\"\r\n+                className=\"w-full text-gray-400 outline-none\" />\r\n+        </form>\r\n+    )\r\n+}\r\n+\r\n+export default TodoCreate;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1694026416356,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n const TodoCreate = ({createTodo}) => {\r\n+\r\n+    \r\n     return (\r\n         <form className=\"bg-white rounded-md overflow-hidden py-4 flex gap-4 items-center px-4 mb-8\">\r\n             <span className=\"rounded-full border-2 w-5 h-5 inline-block\"></span>\r\n             <input type=\"text\" placeholder=\"Create a new todo...\"\r\n"
+                },
+                {
+                    "date": 1694026434987,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+const TodoCreate = ({createTodo}) => {\r\n+\r\n+    a\r\n+    return (\r\n+        <form className=\"bg-white rounded-md overflow-hidden py-4 flex gap-4 items-center px-4 mb-8\">\r\n+            <span className=\"rounded-full border-2 w-5 h-5 inline-block\"></span>\r\n+            <input type=\"text\" placeholder=\"Create a new todo...\"\r\n+                className=\"w-full text-gray-400 outline-none\" />\r\n+        </form>\r\n+    )\r\n+}\r\n+\r\n+export default TodoCreate;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1694026445918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n const TodoCreate = ({createTodo}) => {\r\n \r\n-    a\r\n+    ae\r\n     return (\r\n         <form className=\"bg-white rounded-md overflow-hidden py-4 flex gap-4 items-center px-4 mb-8\">\r\n             <span className=\"rounded-full border-2 w-5 h-5 inline-block\"></span>\r\n             <input type=\"text\" placeholder=\"Create a new todo...\"\r\n@@ -9,29 +9,5 @@\n         </form>\r\n     )\r\n }\r\n \r\n-export default TodoCreate;\n-const TodoCreate = ({createTodo}) => {\r\n-\r\n-    \r\n-    return (\r\n-        <form className=\"bg-white rounded-md overflow-hidden py-4 flex gap-4 items-center px-4 mb-8\">\r\n-            <span className=\"rounded-full border-2 w-5 h-5 inline-block\"></span>\r\n-            <input type=\"text\" placeholder=\"Create a new todo...\"\r\n-                className=\"w-full text-gray-400 outline-none\" />\r\n-        </form>\r\n-    )\r\n-}\r\n-\r\n-export default TodoCreate;\n-const TodoCreate = () => { \r\n-    return(\r\n-        <form className=\"bg-white rounded-md overflow-hidden py-4 flex gap-4 items-center px-4 mb-8\">\r\n-          <span className=\"rounded-full border-2 w-5 h-5 inline-block\"></span>\r\n-          <input type=\"text\" placeholder=\"Create a new todo...\"\r\n-            className=\"w-full text-gray-400 outline-none\" />\r\n-        </form>\r\n-    )\r\n- }\r\n-\r\n- export default TodoCreate;\n\\ No newline at end of file\n+export default TodoCreate;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1694026467489,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const TodoCreate = ({createTodo}) => {\r\n \r\n-    ae\r\n+    \r\n     return (\r\n-        <form className=\"bg-white rounded-md overflow-hidden py-4 flex gap-4 items-center px-4 mb-8\">\r\n+        <form onsub className=\"bg-white rounded-md overflow-hidden py-4 flex gap-4 items-center px-4 mb-8\">\r\n             <span className=\"rounded-full border-2 w-5 h-5 inline-block\"></span>\r\n             <input type=\"text\" placeholder=\"Create a new todo...\"\r\n                 className=\"w-full text-gray-400 outline-none\" />\r\n         </form>\r\n"
+                },
+                {
+                    "date": 1694026477423,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+const TodoCreate = ({createTodo}) => {\r\n+\r\n+    \r\n+    return (\r\n+        <form onSubmit={handleSubmit} className=\"bg-white rounded-md overflow-hidden py-4 flex gap-4 items-center px-4 mb-8\">\r\n+            <span className=\"rounded-full border-2 w-5 h-5 inline-block\"></span>\r\n+            <input type=\"text\" placeholder=\"Create a new todo...\"\r\n+                className=\"w-full text-gray-400 outline-none\" />\r\n+        </form>\r\n+    )\r\n+}\r\n+\r\n+export default TodoCreate;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1694026488805,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,26 +1,13 @@\n const TodoCreate = ({createTodo}) => {\r\n \r\n-    \r\n+    const handl\r\n     return (\r\n-        <form onSubmit={handleSubmit} className=\"bg-white rounded-md overflow-hidden py-4 flex gap-4 items-center px-4 mb-8\">\r\n+        <form onSubmit={handleSubmitAddTodo} className=\"bg-white rounded-md overflow-hidden py-4 flex gap-4 items-center px-4 mb-8\">\r\n             <span className=\"rounded-full border-2 w-5 h-5 inline-block\"></span>\r\n             <input type=\"text\" placeholder=\"Create a new todo...\"\r\n                 className=\"w-full text-gray-400 outline-none\" />\r\n         </form>\r\n     )\r\n }\r\n \r\n-export default TodoCreate;\n-const TodoCreate = ({createTodo}) => {\r\n-\r\n-    \r\n-    return (\r\n-        <form onsub className=\"bg-white rounded-md overflow-hidden py-4 flex gap-4 items-center px-4 mb-8\">\r\n-            <span className=\"rounded-full border-2 w-5 h-5 inline-block\"></span>\r\n-            <input type=\"text\" placeholder=\"Create a new todo...\"\r\n-                className=\"w-full text-gray-400 outline-none\" />\r\n-        </form>\r\n-    )\r\n-}\r\n-\r\n export default TodoCreate;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1694026502469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n const TodoCreate = ({createTodo}) => {\r\n \r\n-    const handl\r\n+    const handleSubmitAddTodo = (e) =>{\r\n+        e.preventDe\r\n+    }\r\n     return (\r\n         <form onSubmit={handleSubmitAddTodo} className=\"bg-white rounded-md overflow-hidden py-4 flex gap-4 items-center px-4 mb-8\">\r\n             <span className=\"rounded-full border-2 w-5 h-5 inline-block\"></span>\r\n             <input type=\"text\" placeholder=\"Create a new todo...\"\r\n"
+                },
+                {
+                    "date": 1694026519957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n const TodoCreate = ({createTodo}) => {\r\n \r\n+    const\r\n+\r\n     const handleSubmitAddTodo = (e) =>{\r\n         e.preventDefault();\r\n     }\r\n     return (\r\n"
+                },
+                {
+                    "date": 1694026528989,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n const TodoCreate = ({createTodo}) => {\r\n \r\n-    const\r\n+    const [todo, setTodo] =\r\n \r\n     const handleSubmitAddTodo = (e) =>{\r\n         e.preventDefault();\r\n     }\r\n"
+                }
+            ],
+            "date": 1694024067823,
+            "name": "Commit-0",
+            "content": "const first = (second) => { third }"
+        }
+    ]
+}

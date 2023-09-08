@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/components/TodoFilter.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1694024320477,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1694024330080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+const TodoFilter = () => {\r\n+    return (\r\n+        <section className=\"container px-4 mx-auto mt-8\">\r\n+            <div className=\"bg-white p-4 rounded-md flex justify-center gap-4\">\r\n+                <button className=\"text-blue-600\">All</button>\r\n+                <button className=\"hover:text-blue-600\">Active</button>\r\n+                <button className=\"hover:text-blue-600\">Completed</button>\r\n+            </div>\r\n+        </section>\r\n+    )\r\n+}\r\n+\r\n+export default TodoFilte\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1694024320477,
+            "name": "Commit-0",
+            "content": "const TodoFilter = () => { \r\n    return(\r\n        <section className=\"container px-4 mx-auto mt-8\">\r\n          <div className=\"bg-white p-4 rounded-md flex justify-center gap-4\">\r\n            <button className=\"text-blue-600\">All</button>\r\n            <button className=\"hover:text-blue-600\">Active</button>\r\n            <button className=\"hover:text-blue-600\">Completed</button>\r\n          </div>\r\n        </section>\r\n    )\r\n }"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "sourceFile": ".prettierrc.cjs",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1694048570339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1694048576850,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,4 @@\n-.prettierrc.cjs\r\n module.exports = {\r\n         ....\r\n \tplugins: [require('prettier-plugin-svelte'), require('prettier-plugin-tailwindcss')],\r\n \tpluginSearchDirs: false,\r\n"
+                }
+            ],
+            "date": 1694048570339,
+            "name": "Commit-0",
+            "content": ".prettierrc.cjs\r\nmodule.exports = {\r\n        ....\r\n\tplugins: [require('prettier-plugin-svelte'), require('prettier-plugin-tailwindcss')],\r\n\tpluginSearchDirs: false,\r\n\toverrides: [{ files: '*.svelte', options: { parser: 'svelte' } }]\r\n        ....\r\n};"
+        }
+    ]
+}
